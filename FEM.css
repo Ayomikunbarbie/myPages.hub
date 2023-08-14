@@ -1,0 +1,225 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+    width: 100%;
+	height: 99vh;
+	background-color: rgba(0, 0, 0, 1.0);
+	cursor: zoom-in;
+}
+.container {
+	height: 100%;
+	background-color: rgba(255,255,255,1);
+	margin: 0 17.3%;
+	position: static;
+}
+.grid {
+	margin-left:14%;
+	top: 25%;
+	height: 48%;
+	width: 33%;
+	position: absolute;
+	border-radius: 25px;
+	grid-template-columns: 50% 50%;
+	display: grid;
+	box-shadow: rgba(255, 255, 255, 0.1) 0px 0.5px 0.5px 0px inset, rgba(30, 30, 63, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.05) 0px 10px 40px -10px;
+}
+.lefttable {
+	text-align: center;
+	border-radius: 25px;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(102,66,254,0.9), rgba(31,45,233,1.0));
+}
+.righttable{
+
+	padding-left: 30px;
+	height: 100%;
+}
+h2 {
+	font-size: 115%;
+	color: rgb(187,172,251);
+	font-family: Trebuchet MS;
+	padding: 11% 0 8% 0;
+}
+.circle {
+	border:none;
+	border-radius: 50%;
+	height: 38.1%;
+	width: 53%;
+	padding-top: 1%;
+	background-image: linear-gradient(to bottom, rgba(71,32,202,1.0), rgba(72,53,241,0.95));
+    text-align: center;
+}
+h3 {
+	color: rgb(255,255,248);
+	font-size: 48px;
+	font-family:Hanken Grotesk ;
+	font-weight: ExtraBold;
+	letter-spacing: -1.5px;
+	
+}
+h6 {
+	color: rgba(255,255,248,0.4);
+	font-size: 12px;
+	font-family:Hanken Grotesk;
+}
+h4{
+	padding: 9% 0 7% 0;
+	color: rgba(255,255,248,1);
+	font-size: 21px;
+	font-family: Hanken Grotesk;
+}
+h5 {
+	color: rgb(187,172,251);
+	font-size: 11px;
+	font-family:Hanken Grotesk;
+   font-variant: small;
+   line-height: 1.5;
+   word-spacing: 0.9px;
+   letter-spacing: 0.6px;
+   font-weight: 400;
+}
+
+h1 {
+	font-size: 16.5px;
+	color: RGBA(26, 32, 47, 0.9);
+	padding: 13% 0 9% 0;
+	font-weight:bolder ;
+	letter-spacing: -1px;
+    font-family:Hanken Grotesk;
+}
+.first, .second, .third, .fourth{
+	width: 90%;
+	height:11.5%;
+	align-items: center;
+	margin-bottom: 4.8%;
+	border-radius: 8px;
+    border: none;
+}
+.left {
+	float: right;
+	align-items: center;
+	margin-right: 5.5%;
+}
+.right {
+	float: left;
+	text-align: center;
+	margin-left: 5%;
+}
+img {
+    width: 76%;
+}
+.right2 {
+	float: left;
+	text-align: center;
+    font-family:Hanken Grotesk;
+	margin-left: 2%;
+    font-weight: bold;
+    font-size: 12.5px;
+    letter-spacing: -0.5px;
+}
+.fifth {
+	width: 90%;
+	height: 11.5%;
+	text-align: center;
+    font-family:Hanken Grotesk;
+	color:rgba(255,255,248,1);
+	margin-top: 2.8%;
+	background-color:rgb(48,59,89);
+	border-radius: 28px;
+	border: none;
+	font-size: 11.5px;
+	font-weight: 500;	
+}
+#right1 {
+	color: rgba(231,121,124,0.8);
+}
+.first {
+	background-color:rgba(212,108,113,0.1);
+}
+#right5 {
+	color:rgba(236,182,75,0.8);
+}
+.second {
+    background-color:rgba(236,182,75,0.1) ;
+}
+#right3 {
+    color:rgba(28,162,127,0.8);
+}
+.third {
+    background-color:rgba(28,162,127,0.1);
+}
+#right4 {
+    color:rgba(30,37,143,0.8);
+}
+.fourth {
+    background-color:rgba(59,58,136,0.1);
+}
+b {
+	color:RGBA(2,5,48,1);
+    font-family: Arial;
+	font-size: 12.7px;
+	font-weight: bold;
+}
+ .pub {
+	color: rgba(0, 0, 0, 0.5);
+    font-family: Arial;
+	font-size: 12.7px;
+	font-weight: bold;
+	letter-spacing: -0.4px;
+}
+/* Interface on smaller screens like Mobiles */
+@media(max-width: 768px) {
+    
+	.lefttable {
+		width: 198.7%;
+		top: -55%;
+		position: absolute;
+		margin-left: -42.5%;
+		max-height: 100%;
+	
+	}
+	.righttable {
+		width: 193%;
+		top: 45.5%;
+		position: absolute;
+		margin-left: -42%;
+		background-color: rgba(255,255,255,0.9);
+		max-height: 100%;
+    }.circle {
+		border:none;
+		border-radius: 50%;
+		height: 40.1%;
+		width: 47%;
+		padding-top: 1%;
+		background-image: linear-gradient(to bottom, rgba(71,32,202,1.0), rgba(72,53,241,0.95));
+		text-align: center;
+	}
+	h3 {
+		color: rgb(255,255,248);
+		font-size: 48px;
+		font-family:Hanken Grotesk ;
+		font-weight: ExtraBold;
+		letter-spacing: -1.5px;
+		
+	}
+	h6 {
+		color: rgba(255,255,248,0.4);
+		font-size: 12px;
+		font-family:Hanken Grotesk;
+	}h4{
+		padding: 5% 0 5% 0;
+		color: rgba(255,255,248,1);
+		font-size: 21px;
+		font-family: Hanken Grotesk;
+	}
+	h2 {
+		font-size: 115%;
+		color: rgb(187,172,251);
+		font-family: Trebuchet MS;
+		padding: 10% 0 5% 0;
+	}
+
+}
